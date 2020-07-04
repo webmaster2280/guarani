@@ -1,0 +1,97 @@
+/* ajustes del estilo manuales improvisado arreglar mejor */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+#mainNav {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+    color: #9e9e9e;
+}
+
+.bg-faded {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+}
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+.btn-primary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000;
+}
+
+.btn-primary:hover {
+    
+    background-color: #00000045;
+    border-color: #ffffff;
+}
+
+.fa-inverse {
+    color: #000;
+}
+
+a.link {
+    color: #ffffff;
+}
+
+a.link:hover {
+    text-decoration: none;
+    color: #676767 !important;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #ffffff;
+}
+
+.text-primary {
+    color: #ffffff !important;
+}
+
+.site-heading .site-heading-lower {
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+}
+
+.site-heading .site-heading-upper {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+
+
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color :#fff ;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}
+/* font-family: 'Dancing Script', cursive; */
